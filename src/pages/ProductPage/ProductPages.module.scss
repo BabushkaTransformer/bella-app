@@ -1,0 +1,121 @@
+.Product {
+	display: flex;
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.Slider {
+	width: 55%;
+	margin-right: 32px;
+
+	img {
+		width: 100%;
+		max-height: 600px;
+		object-fit: cover;
+	}
+}
+
+.Desc {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.Info {
+	h3 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 24px;
+		color: #ab844a;
+	}
+	p {
+		margin-top: 25px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 100%;
+		color: #7c7c7c;
+
+		span {
+			color: #2b2a2a;
+		}
+	}
+}
+
+.Price {
+	display: flex;
+	margin: 25px 0;
+}
+
+.NewPrice {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #ab844a;
+}
+
+.OldPrice {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.04em;
+	text-decoration-line: line-through;
+	color: #7c7c7c;
+	margin-left: 6px;
+}
+
+.Text {
+	h4 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 100%;
+		display: flex;
+		align-items: center;
+
+		color: #000000;
+	}
+
+	p {
+		margin-top: 6px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 175%;
+
+		color: #7c7c7c;
+	}
+}
+
+.InfoRow {
+	display: flex;
+	width: 100%;
+
+	> p {
+		width: 50%;
+	}
+}
+
+.Btn {
+	width: 100%;
+	padding: 14px 0;
+	margin-top: 50px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 0.04em;
+
+	color: #ffffff;
+	background: #2b2a2a;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
