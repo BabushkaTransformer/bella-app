@@ -1,0 +1,53 @@
+.Goods {
+	margin: 60px 0;
+
+	@media (max-width: 480px) {
+		margin: 30px 0;
+	}
+}
+
+.Container {
+	width: 100%;
+	max-width: 1100px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.Title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 32px;
+
+	@media (max-width: 480px) {
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+
+.Cards {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+
+	@media (max-width: 768px) {
+		margin-top: 0;
+	}
+}
+
+.ShowAll {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 40px 0 0 0;
+
+	button {
+		width: 250px;
+		height: 44px;
+		background: #2b2a2a;
+		border: none;
+		color: #fff;
+
+		cursor: pointer;
+	}
+}

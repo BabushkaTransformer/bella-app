@@ -1,10 +1,10 @@
 import React from "react";
-import CategoryList from "../../components/category/CategoryList";
+import CollectionList from "../../components/CollectionList/CollectionList";
 
 const CollectionPage = () => {
 	return (
 		<div>
-			<CategoryList />
+			<CollectionList title={"Коллекция"} />
 		</div>
 	);
 };

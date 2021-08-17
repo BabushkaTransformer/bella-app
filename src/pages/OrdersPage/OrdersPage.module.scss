@@ -1,0 +1,89 @@
+.Container {
+	width: 100%;
+	max-width: 1100px;
+	padding: 60px 15px;
+	margin: 0 auto;
+
+	h1 {
+		font-weight: normal;
+		font-size: 32px;
+		line-height: 32px;
+		letter-spacing: 0.04em;
+		margin-bottom: 12px;
+
+		color: #2a2a2a;
+	}
+}
+
+.Order {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0;
+	border-top: 1px solid rgba(124, 124, 124, 0.2);
+
+	&:last-child {
+		border-bottom: 1px solid rgba(124, 124, 124, 0.2);
+	}
+}
+
+.Top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.Delivered {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.04em;
+	color: #2b2a2a;
+	cursor: pointer;
+
+	span {
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 18px;
+		letter-spacing: 0.04em;
+		margin-left: 20px;
+
+		color: #7c7c7c;
+	}
+}
+
+.Date {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0.04em;
+
+	color: #2b2a2a;
+}
+
+.Bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.Img {
+	display: flex;
+
+	img {
+		width: 130px;
+		height: 180px;
+		padding: 10px;
+		margin-right: 15px;
+		border: 1px solid #ccc;
+		object-fit: cover;
+	}
+}
+
+.Price {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 0.04em;
+
+	color: #ab844a;
+}

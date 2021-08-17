@@ -1,0 +1,27 @@
+.Spinner {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 90px;
+}
+.Spinner:after {
+	position: absolute;
+	left: calc(50% - 55px);
+	content: "";
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 6px solid #ab844a;
+	border-color: #ab844a transparent #ab844a transparent;
+	animation: Spinner 1.2s linear infinite;
+}
+@keyframes Spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

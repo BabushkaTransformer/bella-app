@@ -1,0 +1,99 @@
+.Cart {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: scale(0);
+	transition: 0.2s ease-out;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 9999;
+}
+
+.Active {
+	transform: scale(1);
+	transform: translateX(0) !important;
+}
+
+.CartContent {
+	width: 100%;
+	max-width: 433px;
+	padding: 0 20px;
+	background: #ffffff;
+	border: 1px solid #e4e4e4;
+	box-sizing: border-box;
+	overflow-y: auto;
+	transform: translateX(100%);
+	transition: 0.2s ease-out;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}
+
+.Top {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 0;
+	border-bottom: 1px dashed #e4e4e4;
+}
+
+.Empty {
+	padding: 40px 0;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.04em;
+
+	color: #7c7c7c;
+}
+
+.Bottom {
+	display: flex;
+	flex-direction: column;
+	padding: 22px 44px 40px;
+}
+
+.Checkpoint {
+	display: flex;
+	justify-content: space-between;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: #2b2a2a;
+	margin-bottom: 25px;
+
+	span {
+		font-weight: bold;
+		color: #ab844a;
+	}
+}
+
+.Btn {
+	width: 100%;
+	height: 44px;
+	color: #fff;
+
+	border: none;
+	background: #2b2a2a;
+	cursor: pointer;
+}
+
+.Text {
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.04em;
+	margin-top: 16px;
+
+	color: #ab844a;
+	cursor: pointer;
+}

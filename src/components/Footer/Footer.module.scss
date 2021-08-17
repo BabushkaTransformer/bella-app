@@ -1,0 +1,110 @@
+.Footer {
+	padding: 40px 0;
+	background: #2b2a2a;
+	box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.05);
+}
+
+.Container {
+	width: 100%;
+	max-width: 1100px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.Top {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Bottom {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+	}
+}
+
+.Column {
+	width: 25%;
+
+	@media (max-width: 768px) {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	@media (max-width: 480px) {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	h3 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 15px;
+		color: #ab844a;
+	}
+
+	ul {
+		margin-top: 18px;
+	}
+
+	li {
+		margin-top: 10px;
+	}
+
+	a {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		line-height: 16px;
+		color: #7c7c7c;
+		transition: 0.1s ease-out;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+.CopyRight {
+	width: 75%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #959595;
+
+	@media (max-width: 768px) {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.Socials {
+	display: flex;
+	width: 25%;
+
+	@media (max-width: 768px) {
+		width: 100%;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	li {
+		margin-right: 20px;
+	}
+
+	img {
+		width: 20px;
+		height: 20px;
+	}
+}
